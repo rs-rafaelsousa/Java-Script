@@ -1,0 +1,12 @@
+let produto = 1;
+let numero;
+
+while(true){
+   numero = parseInt(prompt("Digite um número(0 para sair):"));
+   
+   if(numero === 0){
+       break;
+   }
+   produto *= numero;
+}
+console.log("O produto total é:", produto);
