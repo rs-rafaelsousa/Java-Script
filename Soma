@@ -1,0 +1,11 @@
+let soma = 0;
+let numero;
+
+while(numero !== 0){
+    
+    numero = parseInt(prompt("Digite um número(0 para sair):"));
+    
+    soma += numero;
+}
+
+console.log("A soma total é:", soma);
